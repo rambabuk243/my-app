@@ -2,7 +2,7 @@ try{
 	node{
     stage('Git Checkout'){
 		git credentialsId: 'github', 
-		    url: 'https://github.com/javahometech/my-app',
+		    url: 'https://https://github.com/rambabuk243/my-app.git',
 			branch: "${params.gitBranch}"
 	}
 	
